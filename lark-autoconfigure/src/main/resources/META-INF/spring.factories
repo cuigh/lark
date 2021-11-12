@@ -1,0 +1,13 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+lark.autoconfigure.core.CoreAutoConfiguration,\
+lark.autoconfigure.core.ActuatorAutoConfiguration,\
+lark.autoconfigure.core.RegistryAutoConfiguration,\
+lark.autoconfigure.security.SecurityAutoConfiguration,\
+lark.autoconfigure.etcd.Etcd2AutoConfiguration,\
+lark.autoconfigure.etcd.Etcd3AutoConfiguration,\
+lark.autoconfigure.rpc.RpcAutoConfiguration,\
+lark.autoconfigure.web.WebAutoConfiguration,\
+lark.autoconfigure.task.TaskAutoConfiguration,\
+lark.autoconfigure.db.MongoAutoConfiguration,\
+lark.autoconfigure.trace.JaegerTraceConfiguration,\
+lark.autoconfigure.db.SqlAutoConfiguration
